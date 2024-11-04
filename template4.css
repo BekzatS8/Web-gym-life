@@ -1,0 +1,95 @@
+.switch-theme{
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.header {
+    background-color: #606c38;
+    color: rgb(214, 185, 185);
+    padding: 1px 4;
+    text-align: center;
+}
+.top{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.info{
+    background-color:#c5c5c5;
+}
+main {
+    flex: 1; 
+    padding: 20px;
+}
+footer {
+    background-color: #465447;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.shadow-text{
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .shadow-text:hover{
+    color: #fbf6d8;
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 1px 1px 1px #000;
+  }
+  
+.btn{
+    position:absolute;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5px;
+    top: 5px;
+    padding: 0.75rem 0.25rem;
+    width: 140px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Стиль для иконки молнии */
+.logo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+    font-weight: bold;
+    transform: rotate(15deg); /* Легкий поворот, как у иконки */
+}
+
+/* Стиль для слова "Life" */
+.logo-text .life {
+    font-weight: 300;
+}
+
+/* Стиль для ссылки */
+.link {
+    color: #C7D1B2;
+    font-size: 18px;
+}
+header.dark-mode {
+    background-color: #272424;
+}
+footer.dark-mode {
+    background-color: #272424;
+}

@@ -1,0 +1,124 @@
+.switch-theme{
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s;
+}
+
+body.dark-mode {
+  background-color: #1a1a1a;
+}
+
+header {
+    background-color: #606c38;
+    padding: 1px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+
+footer {
+    background-color: #606c38;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.btn{
+    position:absolute;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5px;
+    top: 5px;
+    padding: 0.75rem 0.25rem;
+    width: 140px;
+}
+.shadow-text{
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .shadow-text:hover{
+    color: #fefae0;
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 1px 1px 1px #000;
+  }
+  h8{
+    color: rgb(214, 185, 185);
+    font-size: 2em;
+  }
+  .shadow-text{
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .shadow-text:hover{
+    color: #fbf6d8;
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 1px 1px 1px #000;
+  }
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Стиль для иконки молнии */
+.logo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+    font-weight: bold;
+    transform: rotate(15deg); /* Легкий поворот, как у иконки */
+}
+
+/* Стиль для слова "Life" */
+.logo-text .life {
+    font-weight: 300;
+}
+
+/* Стиль для ссылки */
+.link {
+    color: #C7D1B2;
+    font-size: 18px;
+}
+header.dark-mode {
+    background-color: #272424;
+}
+footer.dark-mode {
+    background-color: #272424;
+}
+  
